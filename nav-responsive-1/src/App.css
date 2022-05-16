@@ -1,0 +1,54 @@
+.App {
+  width: 100%;
+  background: #202023;
+}
+
+.logo {
+  width: 20%;
+  padding: 20px;
+}
+
+.logo h3 {
+  color: #f9f9f9;
+  text-align: center;
+}
+
+.main-menu-pc {
+  width: 80%;
+  display: flex;
+  justify-content: end;
+  padding: 20px;
+}
+
+.main-menu-pc ul li a {
+  color: #f9f9f9;
+}
+.main-menu-pc ul li a:hover {
+  color: #f1af20;
+}
+
+.main-menu-mobile {
+  display: none;
+}
+
+.dropdown-center button svg {
+  color: #f9f9f9;
+}
+
+@media screen and (min-width: 375px) and (max-width: 576px) {
+  .main-menu-pc {
+    display: none;
+  }
+  .main-menu-mobile {
+    display: block;
+  }
+  .main-menu-mobile {
+    width: 80%;
+    display: flex;
+    justify-content: end;
+    padding: 20px;
+  }
+  .dropdown-menu {
+    background: #ffe5b6;
+  }
+}
